@@ -1,0 +1,109 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    /* background: linear-gradient(135deg, #1e3d59, #6a1b9a, #00796b); Gradient from deep navy to purple to dark turquoise */
+    background: linear-gradient(135deg, #0d47a1, #00bfa5, #ff4081, #7b1fa2);
+
+    color: #f0f4f8; /* Very light gray */
+}
+
+/* Form styling */
+form {
+    margin: auto;
+    background: linear-gradient(135deg, #3b5998, #512da8, #00838f); /* Gradient from soft navy to deep purple to turquoise */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    max-width: 600px;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #ff7043; /* Orange */
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid #4db6ac; /* Medium teal */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #2e3b55, #6a1b9a, #4db6ac); /* Gradient from dark navy to purple to medium teal */
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: #ff7043; /* Orange */
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 12px;
+    color: #00bfa5; /* Light gray */
+}
+
+/* Input and textarea styling */
+input, 
+textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: calc(100% - 2px);
+    border: 1px solid #4db6ac;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #364f6b, #512da8); /* Gradient from medium navy to deep purple */
+    color: #ff4081;
+}
+
+/* Button styling */
+button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg,#0d47a1, #00bfa5, #ff4081, #7b1fa2); /* Gradient from coral to light coral to orange */
+    color: #1e3d59; /* Deep navy */
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(135deg,#ff4081,#7b1fa2,#00bfa5,#0d47a1 ); /* Lighter coral to light orange gradient on hover */
+    transform: translateY(-2px);
+}
+
+/* Resume display styling */
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #4db6ac;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #3b5998, #2e3b55, #00796b); /* Gradient from soft navy to dark navy to dark turquoise */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    color: #f0f4f8;
+    outline: none;
+}
+
+/* Resume heading styling */
+#resume-display h2 {
+    color:  #ff4081;
+    text-align: center;
+}
+
+/* Resume heading styling */
+#resume-display  {
+    color: #00bfa5;
+    
+}

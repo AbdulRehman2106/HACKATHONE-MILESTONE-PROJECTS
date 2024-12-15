@@ -1,0 +1,129 @@
+/* General styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Changed font */
+    margin: 20px;
+    padding: 0;
+    background-color: #212121; /* Dark gray */
+    /* background: linear-gradient(#105993, #BAF6FE ,#FFA151); */
+    background: linear-gradient(to right, #105993, #BAF6FE, #FFA151);
+
+    color: #ffffff; /* Text color for dark background */
+}
+
+/* Color Variables */
+:root {
+    --primary-color: #12fff7; /* Aqua/Turquoise */
+    --secondary-color: #b3ffab;/* Light Green*/
+    --button-background: #b3ffab; /* Light Green for button */
+    --button-hover-color: #12fff7; /* Aqua/Turquoise on hover */
+     --fieldset-background-color: /*#b3ffab; Light Green for fieldset background */
+    --fieldset-border-color: #12fff7; /* Aqua/Turquoise for fieldset border */
+}
+
+/* Form styling */
+form {
+    margin: auto;
+    background: linear-gradient(#105993, #BAF6FE, #FFA151); /* Gradient background */
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    padding: 25px;
+}
+
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #105993; /* Color for the header */
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid #105993; /* Change this to your desired border color */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* background-color: #BAF6FE; Change this to your desired background color */
+}
+
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: #BAF6FE; /* Color for the legend */
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 12px;
+    color: #FFA151; /* Color for the labels */
+}
+
+/* Input and textarea styling */
+input, 
+textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: calc(100% - 2px);
+    border: 2px solid var(--fieldset-border-color); /* Aqua/Turquoise border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #e0f7fa; /* Light Cyan to match the body gradient */
+    color: #212121; /* Dark text for better readability */
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Transition for hover and focus effect */
+}
+
+/* Input focus effect */
+input:focus,
+textarea:focus {
+    /* border-color: #00bcd4; Brighter Aqua/Turquoise on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+/* Button styling */
+button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #FFA151, #BAF6FE, #105993);
+    color: #1a1515; /* Text color for the button */
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color:  #105993; /* Change this to the desired hover color */
+    transform: translateY(-2px);
+}
+
+
+/* Resume display styling */
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #105993; /* Aqua/Turquoise border */
+    border-radius: 10px;
+    background: linear-gradient(#BAF6FE, #FFA151); /* Gradient background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    color:#105993; /* Dark text color for better readability */
+}
+
+
+
+/* Resume heading styling */
+#resume-display h2 {
+    color:  #FFA151;
+    text-align: center;
+}
+
+

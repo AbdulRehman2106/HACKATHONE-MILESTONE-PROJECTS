@@ -1,0 +1,124 @@
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #212121; 
+    background: linear-gradient(135deg, #fc354c,#ffe47a,#0abfbc,#061161);
+    color: #ffffff;
+}
+
+/* Form styling */
+form {
+    margin: auto;
+    background: linear-gradient(135deg , #fc354c,#ffe47a,#0abfbc,#abc6e5,#061161);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    max-width: 600px;
+}
+/* Header styling */
+h1,h2 {
+    text-align: center;
+    color: indigo;
+}
+
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid  #ffe47a; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #00BFAE, red #FF6F20, #FFEB3B);
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    text-align: center;
+    color:rgb(15, 134, 67);
+    
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 12px;
+    color:rgb(176, 12, 12);
+}
+
+/* Input and textarea styling */
+input, 
+textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: calc(100% - 2px);
+    border: 1px solid #fbca4e;
+    border-radius: 6px;
+    box-sizing: border-box;
+    /* background: linear-gradient(135deg ,#f41a34,#ffe47a,#061161); */
+    background: linear-gradient(135deg,#fc354c,#ffe47a,#0abfbc,#061161 );
+    background-color: linear-gradient(135deg,#fc354c,#ffe47a,#0abfbc,#061161 );
+    color: #8d0290;
+}
+/* Button styling */
+button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #fc354c,#ffe47a,#0abfbc,#061161);
+    color: #212121;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(135deg,#12c2e9,#c471ed,yellow,#fc354c,#f64f59);
+    transform: translateY(-2px);
+}
+
+/* Resume display styling */
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #ffca28;
+    border-radius: 10px;
+    background-color:  #fc354c,#abc6e5,#061161;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    color: #ffc107;
+    outline: none;
+}
+
+/* Resume heading styling */
+#resume-display h2 {
+    color: #ffc107;
+}
+
+
+@media print {
+    body {
+        visibility: hidden;
+    }
+
+    #resume-display,
+    #resume-display * {
+        visibility: visible;
+    }
+
+    #resume-display {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%; /* Ensure it takes full width */
+    }
+}
+
